@@ -46,3 +46,10 @@ def process(user_input):
         write_to_file(output_file_name, result)
     else:
         print("Result:", result)
+
+def main():
+    user_input = input("From console (1) or file (2): ")
+    process(user_input)
+
+if __name__ == "__main__":
+    main()
