@@ -48,8 +48,9 @@ def process(user_input):
         print("Result:", result)
 
 def main():
-    user_input = input("From console (1) or file (2): ")
-    process(user_input)
+    while(True):
+        user_input = input("From console (1) or file (2): ")
+        process(user_input)
 
 if __name__ == "__main__":
     main()
